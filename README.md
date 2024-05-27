@@ -43,7 +43,7 @@ La urgencia por detectar fraudes en transacciones móviles de dinero ha llevado 
 
 - Mientras que el Histograma de la amount podemos observar un marcado sesgo a la derecha. No sigue una distribución normal.
 
-![histogram](https://github.com/civvic1/Financial_Fraud_Detection/blob/main/img/balanceo.jpg)
+![histogram](https://github.com/civvic1/Financial_Fraud_Detection/blob/main/img/histograma.jpg)
 
 ## **Pregunta 3: Construcción de Modelos ⚙️
 
@@ -62,7 +62,7 @@ La urgencia por detectar fraudes en transacciones móviles de dinero ha llevado 
 
 # Conclusión 💯
 + El análisis de los datos revela importantes insights sobre el negocio que pueden guiar estratégicamente las decisiones para paliar el fraude.
-+ Se identificó la métrica maás relevante, lo cual permite enfocar esfuerzos en esta dirección.
++ Se identificó la métrica más relevante, lo cual permite enfocar esfuerzos en esta dirección.
 + Para mejorar la exactitud, se recomienda profundizar en las distintas técnicas para disminuir el tiempo de computación cuando se haga el análisis para el big data. Así como la atención que se le ha de otorgar
   a las horas de mayor previsión de posible fraude🌟📊📝
 
