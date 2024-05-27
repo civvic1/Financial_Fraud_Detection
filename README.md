@@ -29,25 +29,27 @@ La urgencia por detectar fraudes en transacciones móviles de dinero ha llevado 
 
 - Utilizamos la técnica de one-hot encoding para pasar los valores de la columna type_1 y type_2 a nuevas columnas 
 
-![boxplot](https://github.com/GabrielChavezC/Store_Sales_Analysis_SQL/assets/155968191/ae861238-c44d-4bc4-a1d2-fff80c74b073)
+![boxplot](https://github.com/civvic1/Financial_Fraud_Detection/blob/main/img/preprocesamiento.jpg)
 
+- Balanceamos los valores de la columna isFraud
+
+![graph](https://github.com/civvic1/Financial_Fraud_Detection/blob/main/img/balanceo.jpg)
 
 ## **Pregunta 2: Análisis Exploratório (EDA) 📖 
 
 - En nuestro box plot de step tenemos outliers pero esto corresponde a los horarios de mayor frecuencia en el fraude.
 
+![boxplot](https://github.com/civvic1/Financial_Fraud_Detection/blob/main/img/EDA.png)
+
 - Mientras que el Histograma de la amount podemos observar un marcado sesgo a la derecha. No sigue una distribución normal.
 
-![boxplot](https://github.com/GabrielChavezC/Store_Sales_Analysis_SQL/assets/155968191/ae861238-c44d-4bc4-a1d2-fff80c74b073)
-
+![histogram](https://github.com/civvic1/Financial_Fraud_Detection/blob/main/img/balanceo.jpg)
 
 ## **Pregunta 3: Construcción de Modelos ⚙️
 
 - Tenemos en cuenta la matriz de confusión para entender mejor las métricas a utilizar.
 
-- Discernimos el tipo de Naive Bayes que más convenga para su predicción. En este caso el tipo ha sido multinomial.
-
-![boxplot](https://github.com/GabrielChavezC/Store_Sales_Analysis_SQL/assets/155968191/ae861238-c44d-4bc4-a1d2-fff80c74b073)
+![matriz](https://github.com/civvic1/Financial_Fraud_Detection/blob/main/img/matriz%20de%20confusion.png)
 
 ## **Pregunta 4: Evaluación y selección del modelo 📊
 
@@ -55,7 +57,7 @@ La urgencia por detectar fraudes en transacciones móviles de dinero ha llevado 
 
 - Creamos la gráfica que nos permite ver cuál es el modelo con mejor desempeño.
 
-![boxplot](https://github.com/GabrielChavezC/Store_Sales_Analysis_SQL/assets/155968191/ae861238-c44d-4bc4-a1d2-fff80c74b073)
+![graph](https://github.com/civvic1/Financial_Fraud_Detection/blob/main/img/evaluacion.png)
 
 
 # Conclusión 💯
